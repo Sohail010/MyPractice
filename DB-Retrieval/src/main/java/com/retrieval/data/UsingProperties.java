@@ -25,6 +25,7 @@ public class UsingProperties {
 // return user object instead of void 
 //every object contains single row data
 
+	
 	public List<User> fetchEmployeeDetails() {
 		Connection connection = null;
 		ResultSet resultSet = null;
@@ -42,7 +43,7 @@ public class UsingProperties {
 			PreparedStatement preparedStatement = connection.prepareStatement(query);
 			resultSet = preparedStatement.executeQuery();
 
-			//System.out.println("ID\t\tFIRSTNAME\tLASTNAME\tSALARY");
+			System.out.println("ID\t\tFIRSTNAME\tLASTNAME\tSALARY");
 
 			while (resultSet.next()) {
 				User user = new User();
