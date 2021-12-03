@@ -23,3 +23,7 @@ their is no problem in the project
 
 
 #how to raise pr(PULL REQUEST)?
+ 
+ 1.Go to github,switch to respective branch
+ 2.if code already pushed then, there will be a notification saying <branch_name> recent pushes <x> time ago.
+ 3.Then,click the compare and pull request.
