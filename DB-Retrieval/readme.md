@@ -26,4 +26,4 @@ their is no problem in the project
  
  1.Go to github,switch to respective branch
  2.if code already pushed then, there will be a notification saying <branch_name> recent pushes <x> time ago.
- 3.Then,click the compare and pull request.
+ 3.Then,click the compare and pull request then, it asks for open a pull request(we can leave a comment and create pull request.
