@@ -12,20 +12,12 @@ import java.util.Properties;
 
 import com.ss.customer.bean.User;
 import com.ss.customer.util.DBUtil;
+import com.ss.relations.OnetoOne;
 
 public class UsingProperties {
 
-	public static void main(String[] args) {
-
-		UsingProperties usingProperties = new UsingProperties();
-		// usingProperties.fetchEmployeeDetails();
-		String objectList = usingProperties.fetchEmployeeDetails().toString();
-		System.out.println(objectList);
-	}
 // return user object instead of void 
-//every object contains single row data
-
-	
+//every object contains single row data	
 	public List<User> fetchEmployeeDetails() {
 		Connection connection = null;
 		ResultSet resultSet = null;
