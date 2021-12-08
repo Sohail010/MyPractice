@@ -26,7 +26,7 @@ public class DBUtil {
 
 	public static Properties loadProperties() throws Exception {
 		Properties properties = new Properties();
-		FileInputStream fileInputStream = new FileInputStream("onetoOne_relation.properties");
+		FileInputStream fileInputStream = new FileInputStream("jdbc.properties");
 		properties.load(fileInputStream);
 		fileInputStream.close();
 		return properties;
