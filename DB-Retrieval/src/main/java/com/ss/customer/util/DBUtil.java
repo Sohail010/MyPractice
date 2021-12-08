@@ -19,7 +19,7 @@ public class DBUtil {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} 
+		}
 		return connection;
 
 	}
@@ -32,6 +32,13 @@ public class DBUtil {
 		return properties;
 	}
 
+	/*
+	 * public static Properties loadPropertiesForRelation() throws Exception {
+	 * Properties properties = new Properties(); FileInputStream fileInputStream =
+	 * new FileInputStream("propertiesForRelation");
+	 * properties.load(fileInputStream); fileInputStream.close(); return properties;
+	 * }
+	 */
 	public static String getDriver() {
 
 		String driver = null;
